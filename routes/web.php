@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('cds');
-});
+// Route::get('/', function () {
+//     return view('cds');
+// });
+
+Route::get('/', 'NomeController@getCd');
